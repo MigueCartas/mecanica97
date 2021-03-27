@@ -1,0 +1,191 @@
+/* font-family: 'Fjalla One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Fjalla One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+.header{
+    background-color: #858ECD;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    
+}
+.header figure{
+    margin: 0px 0px 0px 50px;
+    width: 125px;
+    height: 75px;
+
+}
+.header figure img{
+    width: inherit;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+}
+h1 ,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    
+}
+.project-primero{
+    padding: 10px;
+}
+.project-link a{
+    text-decoration:none;
+}
+
+h1{
+    line-height: 150%;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin: 0px;
+    display: flex;
+    height: inherit;
+    
+}
+li{
+    height: inherit;
+}
+
+.link{
+    text-decoration:none;
+    color: #fff;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 0px 10px;
+
+}
+.main{
+    height: 300px;
+    background-color:#858ECD;
+    background-image: url(mecanico.jpeg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+
+}
+h2{
+    margin: 0px;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: rgb(20, 88, 216);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+}
+.projects{
+    padding: 0px 70px 30px 70px;
+    background-color:#744bc525;
+}
+
+
+
+.main span{
+    color:#fff;
+}
+.project{
+    /*border: 1px black solid;*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    /* display: flex; */
+    margin-bottom: 40px;
+    padding: 30px;
+    margin: 0px 0px ;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.project-title{
+    margin-top: 0;
+    font-size: 25px;
+}
+
+
+
+.project-left{
+    width: 500px;
+
+}
+.contactos{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    padding: 0px 30px;
+    margin: 70px;
+    
+    
+}
+.project-container_image{
+width: 500px;
+
+}
+.project-image{
+    width: inherit;
+    
+}
+.experiencias{
+    padding: 0px 30px;
+    display: flex;
+} 
+.experiencia{
+    border: 1px solid black;
+   margin: 0px 30px 40px 0px;
+   width: 480px;
+   
+   }
+   .redes{
+     
+    display: flex;
+    
+}
+   .redesLink{
+       width: 50px;
+       height: 50px;
+       margin: 15px;
+       
+   }
+   .redesLink.Face{
+    background-image: url(../img/face.jpg);
+    background-size: 50px 50px;
+   }
+   .redesLink.Insta{
+    background-image: url(../img/insta.jpg);
+    background-size: 50px 50px;
+   }
+
+   
+
+.footer{
+    
+    background-color: rgb(7, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 20px 100px ;
+    
+    color: #fff;
+}
+
+
+
